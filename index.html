@@ -234,8 +234,8 @@
 
         // ... (以下的JS代码与上一个版本完全相同，可以直接复制) ...
         const meetDate = new Date('2025-03-20T00:00:00');
-        const mockToday = new Date(2027, 6, 3); // 测试用
-        //const mockToday = new Date(); // 正式用
+        //const mockToday = new Date(2027, 6, 3); // 测试用
+        const mockToday = new Date(); // 正式用
         mockToday.setHours(0, 0, 0, 0);
 
         function updateDaysCounter() {
@@ -350,4 +350,5 @@
         renderCalendar(currentYear, currentMonth);
     </script>
 </body>
+
 </html>
