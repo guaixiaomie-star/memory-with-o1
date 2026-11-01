@@ -747,12 +747,12 @@
         const meetDate = new Date('2025-03-20T00:00:00');
 
         // ===== 测试用 =====注意个位数必须加0占位，如2030年1月5日，就是2030-01-05，否则会出错
-        const today = new Date('2039-01-01T00:00:00');
+        //const today = new Date('2104-01-01T00:00:00');
 
         // ===== 正式用 =====
-        //const today = new Date();
+        const today = new Date();
 
-        //today.setHours(0, 0, 0, 0);
+        today.setHours(0, 0, 0, 0);
 
         let y = today.getFullYear();
         let m = today.getMonth();
